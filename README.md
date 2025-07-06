@@ -1,10 +1,23 @@
-# Week 3 - Spring Framework & JPA Projects
+# Digital-Nurture-4.0-JavaFSE-6417525
 
-This repository contains comprehensive hands-on projects covering Spring Framework Core concepts and Spring Data JPA with Hibernate implementations.
+This repository contains comprehensive hands-on projects for the Digital Nurture 4.0 Java FSE program, covering multiple weeks of learning materials.
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-### Week3_Spring_Core_and_Maven/
+### Week 1
+- **Week1-Data structures and Algorithms** - Data structures and algorithm implementations
+- **Week1-Design principles and Pattern** - Design patterns and principles
+
+### Week 2
+- **Week2_SLF4J logging framework** - Logging framework implementations
+- **Week2_TDD using JUnit5 and Mockito** - Test-driven development with JUnit and Mockito
+- **week2-Pl Sql** - PL/SQL exercises and implementations
+
+### Week 3 - Spring Framework & JPA Projects
+
+This week contains comprehensive hands-on projects covering Spring Framework Core concepts and Spring Data JPA with Hibernate implementations.
+
+#### Week3_Spring_Core_and_Maven/
 Contains 9 hands-on projects demonstrating Spring Framework core concepts:
 
 1. **01_Configuring_a_Basic_Spring_Application** - Basic Spring application setup
@@ -17,10 +30,10 @@ Contains 9 hands-on projects demonstrating Spring Framework core concepts:
 8. **08_Implementing_Basic_AOP_with_Spring** - Advanced AOP concepts
 9. **09_Creating_a_Spring_Boot_Application** - Spring Boot REST API implementation
 
-### Week3_Spring_Data_JPA_with_Hibernate/
+#### Week3_Spring_Data_JPA_with_Hibernate/
 Contains comprehensive JPA and Hibernate implementations:
 
-#### 01_spring_data_jpa_handson/
+##### 01_spring_data_jpa_handson/
 - **01_Spring_Data_JPA_Quick_Example** - Basic JPA setup and CRUD operations
 - **02_Hibernate_XML_Configuration** - Hibernate configuration using XML
 - **03_Hibernate_Annotation_Config_implementation** - Annotation-based configuration
@@ -31,7 +44,7 @@ Contains comprehensive JPA and Hibernate implementations:
 - **08_Update_a_country_based_on_code** - Update operations
 - **09_Delete_a_country_based_on_code** - Delete operations
 
-#### 02_spring_data_jpa_handson/
+##### 02_spring_data_jpa_handson/
 - **01_Write_queries_on_country_table_using_Query_Methods** - Query method examples
 - **02_Write_queries_on_stock_table_using_Query_Methods** - Stock table queries
 - **03_Create_payroll_tables_and_bean_mapping** - Entity mapping and relationships
@@ -41,6 +54,7 @@ Contains comprehensive JPA and Hibernate implementations:
 
 ## 🛠️ Technologies Used
 
+### Week 3 Technologies
 - **Java 8+**
 - **Spring Framework 5.x**
 - **Spring Boot 2.x**
@@ -52,7 +66,7 @@ Contains comprehensive JPA and Hibernate implementations:
 
 ## 🚀 Key Learning Objectives
 
-### Spring Core Concepts
+### Week 3 - Spring Core Concepts
 - Dependency Injection (DI)
 - Inversion of Control (IoC)
 - Aspect-Oriented Programming (AOP)
@@ -60,7 +74,7 @@ Contains comprehensive JPA and Hibernate implementations:
 - Configuration using XML and annotations
 - Spring Boot application development
 
-### Spring Data JPA & Hibernate
+### Week 3 - Spring Data JPA & Hibernate
 - Object-Relational Mapping (ORM)
 - Entity relationships (One-to-One, One-to-Many, Many-to-Many)
 - Query methods and custom queries
@@ -80,12 +94,12 @@ Contains comprehensive JPA and Hibernate implementations:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Tanihaa/Digital-Nurture-4.0-JavaFSE.git
-   cd Digital-Nurture-4.0-JavaFSE/week-3
+   cd Digital-Nurture-4.0-JavaFSE
    ```
 
-2. **Navigate to any project:**
+2. **Navigate to Week 3 projects:**
    ```bash
-   cd Week3_Spring_Core_and_Maven/01_Configuring_a_Basic_Spring_Application/Code/LibraryManagementSystem
+   cd week-3/Week3_Spring_Core_and_Maven/01_Configuring_a_Basic_Spring_Application/Code/LibraryManagementSystem
    ```
 
 3. **Build the project:**
@@ -100,21 +114,21 @@ Contains comprehensive JPA and Hibernate implementations:
 
 ## 📚 Project Highlights
 
-### Library Management System
+### Week 3 - Library Management System
 A comprehensive Spring Boot application demonstrating:
 - RESTful API endpoints
 - Database operations
 - Service layer implementation
 - Controller design patterns
 
-### Country Management System
+### Week 3 - Country Management System
 JPA-based application showcasing:
 - Entity mapping
 - Repository interfaces
 - Custom query methods
 - Relationship mappings
 
-### Employee-Department-Skill System
+### Week 3 - Employee-Department-Skill System
 Advanced JPA relationships demonstrating:
 - Complex entity relationships
 - Cascade operations
@@ -159,4 +173,4 @@ This project is part of the Digital Nurture 4.0 Java FSE program.
 
 ---
 
-**Note:** This repository is designed for educational purposes and demonstrates real-world Spring Framework and JPA implementations. 
+**Note:** This repository is designed for educational purposes and demonstrates real-world implementations across multiple Java technologies and frameworks.
